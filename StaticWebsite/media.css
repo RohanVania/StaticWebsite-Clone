@@ -1,0 +1,286 @@
+
+/* First Break Point */
+
+@media screen and (max-width:991px){
+
+    #navtoggler{
+        cursor: pointer;
+    }
+    
+   h3{
+    font-size: 1.2rem;
+   }
+    
+    .nav-menu{
+        /* display: none; */
+      
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+  
+
+    .nav-menu{
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top:140px;
+        padding-block: 30px;
+        background-color: white;
+        transition: 0.3s ease;
+    }
+
+    .active{
+        left: -100%;
+    }
+
+    .nav-toggle{ 
+      display: block;
+    }
+
+    .cta-section{
+        padding-block: 60px;
+    }
+
+    .examples-card-area{
+        gap: 10px; 
+    }
+
+    .example-card{
+        background-size: cover;
+        
+    }
+
+    .example-card:nth-child(2){
+        background-size: cover;
+    }
+
+    
+    .example-card:nth-child(3){
+        background-size: cover;
+    }
+
+    .example-card:nth-child(4){
+        background-size: cover;
+    }
+
+
+    .example-card{
+     width: 49%;   
+     height: 200px;
+     
+    }
+
+}
+
+@media screen and (max-width:767px){
+
+    .features{
+        padding: 20px var(--padding-inline-section) 0;
+    }
+
+    .primary-button{
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-section{
+        gap: 50px;
+        
+        flex-direction: column-reverse;
+      
+    }
+    .hero-section-left{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    .features-card {
+      
+        min-width: calc(50% - 20px);
+    }
+
+    footer{
+        padding-block: 50px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+    :root{
+        --padding-inline-section:10px;
+    }
+
+    h1{
+       
+        font-size: 1.7rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+
+   
+    .small-banner-text{
+      line-height: 1.4rem;
+        font-size: 0.8rem;
+    }
+
+    .main-hero-section{
+        padding-block: 40px;
+    }
+
+    
+    
+    .hero-section-left{
+       
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-section-left p{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .companies{
+        margin-block: 0px;
+        padding-block: 10px;
+      
+    }
+
+    .companies .container{
+        padding-block: 30px;
+        margin-inline: 10px;
+       
+    }
+
+
+    
+    .company-text h3{
+        font-size: 1rem ;
+    }
+
+    .logo{
+        height:45px;
+    }
+    
+    .companies-logo{
+        margin: 30px 0px;
+        gap: 15px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    
+    .features{
+        padding: 60px var(--padding-inline-section) 20px;
+    
+    }
+
+    .features-card{
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 2px;
+      padding-block: 30px;
+      transition: 0.4s ease all;
+    width: 100%;
+    }
+
+    .features-card p{
+        font-size: 1.1rem;
+    } 
+   .features-card .secondary-button{
+    width: 50%;
+    font-size: 0.9rem;
+   }
+
+   .bigger-feature{
+    padding: 50px var(--padding-inline-section) 0;
+ 
+    
+}
+
+.bigger-feature-box{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    padding-block: 30px;
+    flex-direction: column;
+    gap: 15px;
+}
+.bigger-feature-right{
+    text-align: center;
+    flex-direction: column;
+   align-items: center;
+    gap: 12px;
+}
+
+.bigger-feature-right h4{
+    font-size: 1.3rem;
+}
+
+.bigger-feature-right h2{
+    font-size: 1.2rem;
+}
+
+.bigger-feature-right p{
+    font-size: 1rem;
+}
+    
+.examples-section{
+    padding: 50px var(--padding-inline-section) 0;
+ 
+}
+
+.examples-heading h1{
+    margin-block: 15px;
+    font-size: 1.3rem;
+}
+
+.example-card{
+    width: 100%;
+    height: 300px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.cta-section{
+     padding: 50px var(--padding-inline-section) 50px;;
+}
+
+.cta-main{
+    gap: 19px;
+}
+.cta-main h1{
+    font-size: 1.4rem;
+}
+.cta-main p {
+    font-size: 1.2rem;
+    color: #b9cde4 ;
+    margin-top:7px;
+}
+
+footer {
+    padding-block: 40px;
+    background-color: #ebf2fa;
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+  
+}
